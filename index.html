@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranth - Stone Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">PRANTH</h1>
+            <p class="subtitle">Stone Paper Scissors - The Mismatched Edition</p>
+        </header>
+
+        <div class="score-board">
+            <div class="score">
+                <h2>You</h2>
+                <span id="player-score">0</span>
+            </div>
+            <div class="score">
+                <h2>Computer</h2>
+                <span id="computer-score">0</span>
+            </div>
+        </div>
+
+        <div class="game-area">
+            <div class="choice-display">
+                <div class="choice">
+                    <h3>Your Choice</h3>
+                    <div id="player-choice" class="choice-icon">?</div>
+                </div>
+                <div class="vs">VS</div>
+                <div class="choice">
+                    <h3>Computer Choice</h3>
+                    <div id="computer-choice" class="choice-icon">?</div>
+                </div>
+            </div>
+
+            <div class="result" id="result">
+                <h2>Choose your weapon!</h2>
+            </div>
+
+            <div class="choices">
+                <button class="choice-btn" data-choice="stone">
+                    <div class="choice-symbol">🪨</div>
+                    <span>Stone</span>
+                </button>
+                <button class="choice-btn" data-choice="paper">
+                    <div class="choice-symbol">📄</div>
+                    <span>Paper</span>
+                </button>
+                <button class="choice-btn" data-choice="scissors">
+                    <div class="choice-symbol">✂️</div>
+                    <span>Scissors</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <span class="stat-label">Games Played:</span>
+                <span id="games-played">0</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Win Rate:</span>
+                <span id="win-rate">0%</span>
+            </div>
+        </div>
+
+        <button class="reset-btn" id="reset-btn">Reset Game</button>
+    </div>
+
+    <div class="particles"></div>
+    <script src="script.js"></script>
+</body>
+</html>
