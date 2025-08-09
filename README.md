@@ -1,7 +1,5 @@
 # PRANTH - Stone Paper Scissors
 ## Basic Details
-### Team Name: [arthalal]
-
 
 ### Team Members
 - Team Lead: [Arthalal C] - [College of engineering Perumon]
