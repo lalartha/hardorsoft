@@ -1,5 +1,12 @@
 # PRANTH - Stone Paper Scissors
+## Basic Details
+### Team Name: [arthalal]
 
+
+### Team Members
+- Team Lead: [Arthalal C] - [College of engineering Perumon]
+
+### Project Description
 A **deliberately broken** stone paper scissors game with an attractive futuristic UI where nothing works as expected!
 
 ## 🎮 About the Game
@@ -85,19 +92,15 @@ php -S localhost:8000
 
 **For Software:**
 
-#### Screenshots
-![Game Interface](screenshots/game-interface.png)
-*Main game interface showing the futuristic UI with score board, choice buttons, and particle effects*
+# Screenshots (Add at least 3)
+![Screenshot_9-8-2025_10480_hardorsoft vercel app](https://github.com/user-attachments/assets/b40edbe7-b69b-4b22-8b6f-5ed4d7da8151)
+interface page
 
-![Gameplay](screenshots/gameplay.png)
-*Active gameplay showing player vs computer choices with mismatched symbols and confusing results*
+![Screenshot2]![Screenshot_9-8-2025_105111_hardorsoft vercel app](https://github.com/user-attachments/assets/0cb0927a-3b71-457a-8476-7ed7b0bd4203)
+options to select
 
-![Mobile Responsive](screenshots/mobile-responsive.png)
-*Mobile-responsive design showing how the game adapts to smaller screens*
-
-#### Diagrams
-![Architecture](diagrams/architecture.png)
-*Simple client-side architecture showing HTML structure, CSS styling, and JavaScript game logic*
+![Screenshot3]
+![Screenshot_9-8-2025_10566_127 0 0 1](https://github.com/user-attachments/assets/799801d3-34e7-4356-9a7f-9b8943347c7c)
 
 #### Key Technical Features
 
@@ -250,6 +253,12 @@ Remember: In PRANTH, nothing works as expected. The more you try to understand t
 ---
 
 *"In a world where stone beats paper and scissors lose to everything, only PRANTH can save us from logical consistency."* 
+## Team Contributions
+- [Arthalal]: [develop]
+---
+Made with ❤ at TinkerHub Useless Projects 
 
+![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
 
 
